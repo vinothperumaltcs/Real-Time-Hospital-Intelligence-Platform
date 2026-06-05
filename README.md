@@ -6,7 +6,8 @@ A real-time data engineering pipeline built on Azure that monitors hospital pati
 
 ##  Architecture
 
-![Real-Time Hospital Intelligence Platform Architecture](architecture.png)
+<img width="1100" height="600" alt="architecture_10" src="https://github.com/user-attachments/assets/00d5f2de-1ce2-424f-bc5b-84023fff6465" />
+
 
 The pipeline is orchestrated end-to-end using **Azure Data Factory (ADF)**. Notably, the Gold layer transformation is triggered conditionally by ADF — it runs only when the incoming silver record count exceeds 1, ensuring efficient processing and avoiding unnecessary compute.
 
